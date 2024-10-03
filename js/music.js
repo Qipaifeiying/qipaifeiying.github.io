@@ -13,9 +13,9 @@ GitHub：https://github.com/imsyy/home
 // let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 // let id = "7452421335"; //封面 ID / 单曲 ID / 歌单 ID
 
-let server = "tencent"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
+let server = "netease"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
 let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
-let id = "7994381652"; //封面 ID / 单曲 ID / 歌单 ID
+let id = "12297442313"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
     url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
