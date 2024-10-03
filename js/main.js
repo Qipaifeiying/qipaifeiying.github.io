@@ -292,7 +292,7 @@ $("#github")
   });
 $("#qq")
   .mouseover(function () {
-    $("#link-text").html("有什么事吗");
+    $("#link-text").html("1752669709");
   })
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
@@ -311,13 +311,13 @@ $("#bilibili")
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
   });
-$("#telegram")
-  .mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-  })
-  .mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-  });
+// $("#telegram")
+//   .mouseover(function () {
+//     $("#link-text").html("你懂的 ~");
+//   })
+//   .mouseout(function () {
+//     $("#link-text").html("通过这里联系我");
+//   });
 
 //自动变灰
 let myDate = new Date();
