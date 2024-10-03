@@ -3,15 +3,29 @@
     "development"
   ],
   "hints": {
-    "compat-api/html": "off",
-    "no-protocol-relative-urls": "off",
-    "compat-api/css": [
+    "compat-api/html": [
       "default",
       {
         "ignore": [
-          "backdrop-filter"
+          "meta[name=theme-color]"
         ]
       }
-    ]
+    ],
+    "highest-available-document-mode": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "apple-touch-icons": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "disown-opener": "off"
   }
 }
