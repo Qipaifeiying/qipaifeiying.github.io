@@ -143,7 +143,7 @@ $("#hitokoto").click(function () {
 
 // 获取天气
 // 请前往 https://www.mxnzp.com/doc/list 申请 app_id 和 app_secret
-const mainKey = "57eaea5833ff1616cfd1ff2c4cf9b58a"; // 高德开发者 Key
+const mainKey = "b89b81bf1a9f288bb008d7c3ca9059fe"; // 高德开发者 Key
 const getWeather = () => {
   fetch(`https://restapi.amap.com/v3/ip?key=${mainKey}`)
     .then((response) => response.json())
