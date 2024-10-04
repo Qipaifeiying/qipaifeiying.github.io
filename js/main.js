@@ -283,13 +283,13 @@ $("#social")
     });
   });
 
-$("#github")
-  .mouseover(function () {
-    $("#link-text").html("去 Github 看看");
-  })
-  .mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-  });
+// $("#github")
+//   .mouseover(function () {
+//     $("#link-text").html("去 Github 看看");
+//   })
+//   .mouseout(function () {
+//     $("#link-text").html("通过这里联系我");
+//   });
 $("#qq")
   .mouseover(function () {
     $("#link-text").html("1752669709");
@@ -304,13 +304,13 @@ $("#email")
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
   });
-$("#bilibili")
-  .mouseover(function () {
-    $("#link-text").html("来 B 站看看 ~");
-  })
-  .mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-  });
+// $("#bilibili")
+//   .mouseover(function () {
+//     $("#link-text").html("来 B 站看看 ~");
+//   })
+//   .mouseout(function () {
+//     $("#link-text").html("通过这里联系我");
+//   });
 // $("#telegram")
 //   .mouseover(function () {
 //     $("#link-text").html("你懂的 ~");
@@ -359,7 +359,7 @@ $("#switchmore").on("click", function () {
   } else {
     $("#container").attr("class", "container");
     $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+    $("#change1").html("气派飞鹰的主页，放点好玩的东西");
   }
 });
 
@@ -408,7 +408,7 @@ window.addEventListener("load", function () {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
       $("#change").html("Hello&nbsp;World&nbsp;!");
-      $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+      $("#change1").html("气派飞鹰的主页，放点好玩的东西");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");

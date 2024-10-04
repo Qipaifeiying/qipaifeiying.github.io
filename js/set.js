@@ -34,6 +34,11 @@ let bg_img_preinstall = {
   4: "https://www.dmoe.cc/random.php", // 随机动漫
 };
 
+let backgrounds = [
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291333077.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409261844847.jpg"
+]
+
 // 更改背景图片
 function setBgImgInit() {
   let bg_img = getBgImg();
@@ -41,10 +46,14 @@ function setBgImgInit() {
 
   switch (bg_img["type"]) {
     case "1":
+      // $("#bg").attr(
+      //   "src",
+      //   `./img/background${1 + ~~(Math.random() * 7)}.png`
+      // ); //随机默认壁纸
       $("#bg").attr(
-        "src",
-        `./img/background${1 + ~~(Math.random() * 7)}.png`
-      ); //随机默认壁纸
+          "src",
+          backgrounds[~~(Math.random() * backgrounds.length)]
+        ); //随机默认壁纸
       break;
     case "2":
       $("#bg").attr("src", bg_img_preinstall[2]); //必应每日
