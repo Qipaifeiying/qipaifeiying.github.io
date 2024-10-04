@@ -1,0 +1,36 @@
+<!-- QQimg-viewer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片居中且控制边距</title>
+    <style>
+        /* 设置页面整体的高度，保证页面可以根据浏览器窗口大小自动调整 */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        /* 使用 Flexbox 布局来保证图片水平和垂直居中 */
+        body {
+            display: flex;
+            justify-content: center;  /* 水平居中 */
+            align-items: center;      /* 垂直居中 */
+            padding: 5%;              /* 页面边距设置为 5% */
+            box-sizing: border-box;    /* 确保 padding 不影响实际的宽高 */
+        }
+
+        /* 确保图片根据页面大小自适应 */
+        img {
+            max-width: 100%;          /* 图片不会超过父容器的宽度 */
+            max-height: 100%;         /* 图片不会超过父容器的高度 */
+            object-fit: contain;      /* 保持图片的宽高比 */
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>图片查看</h1> -->
+    <img src="https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202410041728179.png" alt="图片">
+</body>
+</html>
