@@ -292,7 +292,7 @@ $("#social")
 //   });
 $("#qq")
   .mouseover(function () {
-    $("#link-text").html("1752669709");
+    $("#link-text").html("有事吗？");
   })
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
