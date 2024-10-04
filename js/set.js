@@ -36,7 +36,14 @@ let bg_img_preinstall = {
 
 let backgrounds = [
   "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291333077.png",
-  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409261844847.jpg"
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409261844847.jpg",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409261801714.jpg",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409282312938.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409282340968.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291444667.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291444161.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291550407.png",
+  "https://qipaifeiying.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%87/202409291600899.jpg"
 ]
 
 // 更改背景图片
